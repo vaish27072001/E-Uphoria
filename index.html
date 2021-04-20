@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
     <!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
@@ -9,13 +9,20 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>E-Uphoria | JECRC</title>  
+    <title>E-Uphoria | JECRC </title>  
+    
+     <link rel="stylesheet" type="text/css" href="style.css">	
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/30c21ac8e0.js"></script>
+    
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
-<head>
+
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/images/Euphoria%20icon.png"  />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
@@ -26,10 +33,31 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-	<script src="js/modernizr.js"></script>
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
-   
+  
+
 </head>
+    
+    <style>
+
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+   background: url("banner-01.jpg"); 
+    background-color: aqua;
+  color: black;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {
+    padding:20px;
+    }
+</style>
+    
 <body id="page-top" class="politics_version">
 
     <!-- LOADER -->
@@ -47,10 +75,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-			<img class="img-fluid" src="images/logo.png" alt="" />
+			<img class="img-fluid" src="/images/e%20logo.png" alt="" />
 		</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu
-          
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -62,37 +90,38 @@
               <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#event">Event</a>
             </li>
-            <li class="nav-item">
+        <!--    <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
             </li>
+              -->
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contect Us</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-	
+	<!--
 	<div id="home" class="ct-header ct-header--slider ct-slick-custom-dots">
 		<div class="ct-slick-homepage" data-arrows="true" data-autoplay="false">
 
-			<div class="ct-header tablex item" data-background="uploads/banner-01.jpg">
+			<div class="ct-header tablex item" background="images/banner-01.jpg">
 				<div class="ct-u-display-tablex">
 					<div class="inner">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-8 col-lg-8 slider-inner">
-									<h1 class="big animated">hey</h1>
-									<p class="animated">Content</p>
-									<a class="btn-new from-middle animated" href="#">button 1</a>
+									<h1 class="big animated">Hello I'm Web Designer</h1>
+									<p class="animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis massa bibendum sodales rhoncus.</p>
+									<a class="btn-new from-middle animated" href="#">Download cv</a>
 								</div>
 							</div>
 						</div>
@@ -100,15 +129,15 @@
 				</div>
 			</div>
 
-			<div class="ct-header tablex item" data-background="uploads/banner-01.jpg">
+			<div class="ct-header tablex item" data-background="">
 				<div class="ct-u-display-tablex">
 					<div class="inner">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-8 col-lg-8 slider-inner">
-									<h1 class="big animated">hello</h1>
-									<p class="animated">next content</p>
-									<a class="btn-new from-middle animated" href="#">button 2</a>
+									<h1 class="big animated">Hello I'm Ux/Ui Designer</h1>
+									<p class="animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis massa bibendum sodales rhoncus.</p>
+									<a class="btn-new from-middle animated" href="#">Download cv</a>
 								</div>
 							</div>
 						</div>
@@ -124,7 +153,7 @@
 								<div class="col-md-8 col-lg-8 slider-inner">
 									<h1 class="big animated">Hello I'm Web Developer</h1>
 									<p class="animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis massa bibendum sodales rhoncus.</p>
-									<a class="btn-new from-middle animated" href="#">hey</a>
+									<a class="btn-new from-middle animated" href="#">Download cv</a>
 								</div>
 							</div>
 						</div>
@@ -132,18 +161,23 @@
 				</div>
 			</div>
 			
-		</div> 
-	</div> 
+		</div>
+	</div> --> 
 
+    <div class="header">
+  <h1>Header</h1>
+  <p>My supercool header</p>
+</div>
+    
     <div id="about" class="section wb">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="message-box">                        
-                        <h2>About Event .</h2>
-                        <p> content </p>
-						<p>content</p>
-						<p>content</p>
+                        <h2>About US</h2>
+                        <p>hi</p>
+						<p>hi</p>
+						<p>hi</p>
 						
 						<ul>
 							<li><b>Follow Me</b></li>
@@ -155,7 +189,7 @@
 							<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
 						</ul>
 
-						<a class="btn-new from-middle animated" href="#">hey</a>
+						<a class="btn-new from-middle animated" href="#">button</a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
@@ -167,13 +201,13 @@
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
-	
+	<!--
     <div id="services" class="section lb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Topic</h3>
-                <p>content</p>
-            </div><!-- end title -->
+                <h3>Services</h3>
+                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+            </div>
 
             <div class="row">
 				<div class="col-md-4">
@@ -181,73 +215,72 @@
 						<div class="ser-icon">
 							<i class="flaticon-idea-1"></i>
 						</div>
-						<h2>1</h2>
-						<p>hi</p>
+						<h2>Graphic Design</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div> 
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
 							<i class="flaticon-discuss-issue"></i>
 						</div>
-						<h2>2</h2>
-						<p>hi</p>
+						<h2>Support</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div> 
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
 							<i class="flaticon-idea"></i>
 						</div>
-						<h2>3</h2>
-						<p>hi</p>
+						<h2>Web Idea</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div> 
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
 							<i class="flaticon-seo"></i>
 						</div>
-						<h2>4</h2>
-						<p>hi</p>
+						<h2>Web Development</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div> 
                 <div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
 							<i class="flaticon-development"></i>
 						</div>
-						<h2>5</h2>
-						<p>hi</p>
+						<h2>Responsive Design</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div> 
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
 							<i class="flaticon-process"></i>
 						</div>
-						<h2>6</h2>
-						<p>hi</p>
+						<h2>Creative Design</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-	
+                </div> 
+            </div> 
+        </div> 
+    </div>
+
 	<div id="portfolio" class="section lb">
 		<div class="container">
 			<div class="section-title text-center">
                 <h3>Portfolio</h3>
-                <p>hi</p>
-            </div><!-- end title -->
-			
+                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+            </div> 
 			<div class="gallery-menu text-center row">
 				<div class="col-md-12">
 					<div class="button-group filter-button-group">
 						<button class="btn-new from-middle animated active" data-filter="*">All</button>
-						<button class="btn-new from-middle animated" data-filter=".gal_a">2</button>
-						<button class="btn-new from-middle animated" data-filter=".gal_b">3</button>
-						<button class="btn-new from-middle animated" data-filter=".gal_c">4</button>
+						<button class="btn-new from-middle animated" data-filter=".gal_a">Web Development</button>
+						<button class="btn-new from-middle animated" data-filter=".gal_b">Creative Design</button>
+						<button class="btn-new from-middle animated" data-filter=".gal_c">Graphic Design</button>
 					</div>
 				</div>
 			</div>
@@ -257,8 +290,8 @@
 					<div class="gallery-single spi-hr fix hover">
 						<img src="uploads/gallery_img-01.jpg" class="img-fluid" alt="Image">
 						<div class="text-hover">
-							<h3>1</h3>
-							<h4>content</h4>
+							<h3>App design</h3>
+							<h4>Lorem ipsum</h4>
 						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
@@ -270,8 +303,8 @@
 					<div class="gallery-single spi-hr fix">
 						<img src="uploads/gallery_img-02.jpg" class="img-fluid" alt="Image">
 						<div class="text-hover">
-							<h3>2</h3>
-							<h4>content</h4>
+							<h3>Logo design</h3>
+							<h4>Lorem ipsum</h4>
 						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
@@ -283,8 +316,8 @@
 					<div class="gallery-single spi-hr fix">
 						<img src="uploads/gallery_img-03.jpg" class="img-fluid" alt="Image">
 						<div class="text-hover">
-							<h3>3</h3>
-							<h4>content</h4>
+							<h3>App design</h3>
+							<h4>Lorem ipsum</h4>
 						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
@@ -296,8 +329,8 @@
 					<div class="gallery-single spi-hr fix">
 						<img src="uploads/gallery_img-04.jpg" class="img-fluid" alt="Image">
 						<div class="text-hover">
-							<h3>4</h3>
-							<h4>content</h4>
+							<h3>Logo design</h3>
+							<h4>Lorem ipsum</h4>
 						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
@@ -309,8 +342,8 @@
 					<div class="gallery-single spi-hr fix">
 						<img src="uploads/gallery_img-05.jpg" class="img-fluid" alt="Image">
 						<div class="text-hover">
-							<h3>5</h3>
-							<h4>content</h4>
+							<h3>App design</h3>
+							<h4>Lorem ipsum</h4>
 						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-05.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
@@ -322,8 +355,8 @@
 					<div class="gallery-single spi-hr fix">
 						<img src="uploads/gallery_img-06.jpg" class="img-fluid" alt="Image">
 						<div class="text-hover">
-							<h3>6</h3>
-							<h4>content</h4>
+							<h3>Logo design</h3>
+							<h4>Lorem ipsum</h4>
 						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-06.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
@@ -333,7 +366,7 @@
 			</div>
 			</div>
 		</div>
-	<!--
+	</div>
 	
 	 <div id="testimonials" class="section wb">
         <div class="container">
@@ -355,10 +388,11 @@
                                 <img src="uploads/testi_01.png" alt="" class="img-fluid">
                                 <h4>James Fernando </h4>
                             </div>
-                           
+                             
                         </div>
-                        
-                     <div class="testimonial clearfix">
+
+
+                        <div class="testimonial clearfix">
                             <div class="desc">
                                 <h3> Awesome Services!</h3>
                                 <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
@@ -368,10 +402,9 @@
                                 <img src="uploads/testi_02.png" alt="" class="img-fluid">
                                 <h4>Jacques Philips </h4>
                             </div>
-                           
+                            
                         </div>
-                   
-
+                        
                         <div class="testimonial clearfix">
                             <div class="desc">
                                 <h3> Great & Talented Team!</h3>
@@ -397,7 +430,8 @@
                             </div>
                             
                         </div>
-                       
+                    
+
                         <div class="testimonial clearfix">
                             <div class="desc">
                                 <h3> Awesome Services!</h3>
@@ -410,7 +444,7 @@
                             </div>
                              
                         </div>
-                        
+                     
 
                         <div class="testimonial clearfix">
                             <div class="desc">
@@ -429,12 +463,300 @@
             </div> 
         </div> 
     </div> 
-	-->
+-->
+    
+    <!-- Accordion  -->
+	
+    <div class="container" id="event">
+	<div class="row">
+		<div class="col-sm-12">
+			<p class="my-5" ><strong><center>All Events</center></strong></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<ul class="nav nav-tabs">
+				<li ><a data-toggle="tab" href="#tab1" aria-selected="true" class="active">TECHNICAL</a></li>
+				<li><a data-toggle="tab" href="#tab2" aria-selected="false">CULTURAL</a></li>
+                <li><a data-toggle="tab" href="#tab3" aria-selected="false">SPORTS</a></li>
+			</ul>
+		</div>
+	</div>
+	   <div class="row">
+		<div class="col-sm-12">
+			
+			<div class="tab-content">
+				<div id="tab1" class="tab-pane fade show active">
+					<div class="accordion">
+						<div class="card">
+							<div class="card-header" id="infraOne">
+								<a href="#collapseOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+									<p class="mb-0">
+								 1. Pyconcede
+									</p>
+								</a>
+							</div>
+							<div id="collapseOne" class="collapse" aria-labelledby="infraOne" data-parent="#accordion">
+								<div class="card-body">
+								Using Amazon AWS technology which is an industry leader for reliability you will be able to experience an uptime in the vicinity of 99.95%.
+								</div>
+							</div>
+						</div><!-- close card-->
+						<div class="card">
+							<div class="card-header" id="infraTwo">
+								<a href="#collapseTwo" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								  <p class="mb-0">2. Neologic</p>
+								</a>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="infraTwo" data-parent="#accordion">
+								<div class="card-body">
+								Solodev CMS is built using PHP, Javascript, HTML and CSS.
+								</div>
+							</div>
+						</div><!-- card-->
+						<div class="card">
+							<div class="card-header" id="infraThree">
+								<a href="#collapseThree" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									<p class="mb-0">3. 0 Start - A learning to graphics and editing tool</p>
+								</a>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="infraThree" data-parent="#accordion">
+								<div class="card-body">
+								We support the current and previous major releases of Google Chrome™, Firefox®, Safari®, Microsoft® Edge™, and Internet Explorer® on a rolling basis. Each time a new version is released, we begin supporting that version and stop supporting the third most recent version.
+								</div>
+							</div>
+						</div><!-- card-->
+					</div>
+                    <div class="accordion">
+						<div class="card">
+							<div class="card-header" id="infrafour">
+								<a href="#collapsefour" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+									<p class="mb-0">
+								 4. Flutteristic  
+									</p>
+								</a>
+							</div>
+							<div id="collapsefour" class="collapse" aria-labelledby="infrafour" data-parent="#accordion">
+								<div class="card-body">
+								Using Amazon AWS technology which is an industry leader for reliability you will be able to experience an uptime in the vicinity of 99.95%.
+								</div>
+							</div>
+						</div><!-- close card-->
+						<div class="card">
+							<div class="card-header" id="infrafivr">
+								<a href="#collapsefive" class="collapsed" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+								  <p class="mb-0">5. Deride Placement </p>
+								</a>
+							</div>
+							<div id="collapsefive" class="collapse" aria-labelledby="infraTwo" data-parent="#accordion">
+								<div class="card-body">
+								Solodev CMS is built using PHP, Javascript, HTML and CSS.
+								</div>
+							</div>
+						</div><!-- card-->
+						<div class="card">
+							<div class="card-header" id="infrasix">
+								<a href="#collapsesix" class="collapsed" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+									<p class="mb-0">6. Capture the Flag</p>
+								</a>
+							</div>
+							<div id="collapsesix" class="collapse" aria-labelledby="infrasix" data-parent="#accordion">
+								<div class="card-body">
+								We support the current and previous major releases of Google Chrome™, Firefox®, Safari®, Microsoft® Edge™, and Internet Explorer® on a rolling basis. Each time a new version is released, we begin supporting that version and stop supporting the third most recent version.
+								</div>
+							</div>
+						</div>
+                        <div class="card">
+							<div class="card-header" id="infraseven">
+								<a href="#collapseseven" class="collapsed" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+									<p class="mb-0">7. Ethos Management - A secret to social media's reality</p>
+								</a>
+							</div>
+							<div id="collapseseven" class="collapse" aria-labelledby="infraseven" data-parent="#accordion">
+								<div class="card-body">
+								We support the current and previous major releases of Google Chrome™, Firefox®, Safari®, Microsoft® Edge™, and Internet Explorer® on a rolling basis. Each time a new version is released, we begin supporting that version and stop supporting the third most recent version.
+								</div>
+							</div>
+						</div>
+                        <div class="card">
+							<div class="card-header" id="infraeight">
+								<a href="#collapseeight" class="collapsed" data-toggle="collapse" data-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+									<p class="mb-0">8. Hack the idea - where ideation meets implementation</p>
+								</a>
+							</div>
+							<div id="collapseeight" class="collapse" aria-labelledby="infraeight" data-parent="#accordion">
+								<div class="card-body">
+								We support the current and previous major releases of Google Chrome™, Firefox®, Safari®, Microsoft® Edge™, and Internet Explorer® on a rolling basis. Each time a new version is released, we begin supporting that version and stop supporting the third most recent version.
+								</div>
+							</div>
+						</div>
+                        
+                        <!-- card-->
+					</div>
+                    <!-- accordion-->
+				</div><!-- tab 1-->
+			<div id="tab2" class="tab-pane fade">
+				<div class="accordion">
+					<div class="card">
+						<div class="card-header" id="aboutOne">
+							<a href="#collapseFour"   data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseOne">
+								<p class="mb-0">1. Act-o-Mania </p>
+							</a>
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="aboutOne" data-parent="#accordion">
+							<div class="card-body">
+							With Solodev CMS, you and your visitors will benefit from a finely-tuned technology stack that drives the highest levels of site performance, speed and engagement - and contributes more to your bottom line. 
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="aboutTwo">
+							<a href="#collapseFive" class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+							  <p class="mb-0">2. Fashion Breganaza </p>
+							</a>
+						</div>
+						<div id="collapseFive" class="collapse" aria-labelledby="aboutTwo" data-parent="#accordion">
+							<div class="card-body">
+							Building a website is extremely easy. With a working knowledge of HTML and CSS you will be able to have a site up and running in no time.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="aboutThree">
+							<a href="#collapseSix" class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+							  <p class="mb-0">3. Open-Mic</p>
+							</a>
+						</div>
+						<div id="collapseSix" class="collapse" aria-labelledby="aboutThree" data-parent="#accordion">
+							<div class="card-body">
+							Yes, click here to request a demo and one of our representatives will contact you shortly to setup a time convenient to you.
+							</div>
+						</div>
+					</div>
+                    <div class="card">
+						<div class="card-header" id="aboutfour">
+							<a href="#collapseSix" class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapsefour">
+							  <p class="mb-0">4. Mann ki baat</p>
+							</a>
+						</div>
+						<div id="collapseSix" class="collapse" aria-labelledby="aboutfour" data-parent="#accordion">
+							<div class="card-body">
+							Yes, click here to request a demo and one of our representatives will contact you shortly to setup a time convenient to you.
+							</div>
+						</div>
+					</div>
+                    <div class="card">
+						<div class="card-header" id="aboutfive">
+							<a href="#collapseSix" class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapsefive">
+							  <p class="mb-0">5. Comic Saga </p>
+							</a>
+						</div>
+						<div id="collapseSix" class="collapse" aria-labelledby="aboutfive" data-parent="#accordion">
+							<div class="card-body">
+							Yes, click here to request a demo and one of our representatives will contact you shortly to setup a time convenient to you.
+							</div>
+						</div>
+					</div>
+                    <div class="card">
+						<div class="card-header" id="aboutsix">
+							<a href="#collapseSix" class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapsesix">
+							  <p class="mb-0">6. Dyansty Of Dance </p>
+							</a>
+						</div>
+						<div id="collapseSix" class="collapse" aria-labelledby="aboutsix" data-parent="#accordion">
+							<div class="card-body">
+							Yes, click here to request a demo and one of our representatives will contact you shortly to setup a time convenient to you.
+							</div>
+						</div>
+					</div>
+                    <div class="card">
+						<div class="card-header" id="aboutseven">
+							<a href="#collapseSix" class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseseven">
+							  <p class="mb-0">7. Melody Of Chords</p>
+							</a>
+						</div>
+						<div id="collapseSix" class="collapse" aria-labelledby="aboutseven" data-parent="#accordion">
+							<div class="card-body">
+							Yes, click here to request a demo and one of our representatives will contact you shortly to setup a time convenient to you.
+							</div>
+						</div>
+					</div>
+				</div><!-- accordion-->
+			</div><!-- tab2 -->
+                
+                <div id="tab3" class="tab-pane fade">
+					<div class="accordion">
+						<div class="card">
+							<div class="card-header" id="infranine">
+								<a href="#collapsenine" data-toggle="collapse" data-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+									<p class="mb-0">
+								  1. I Bet You
+									</p>
+								</a>
+							</div>
+							<div id="collapsenine" class="collapse" aria-labelledby="infranine" data-parent="#accordion">
+								<div class="card-body">
+								Using Amazon AWS technology which is an industry leader for reliability you will be able to experience an uptime in the vicinity of 99.95%.
+								</div>
+							</div>
+						</div><!-- close card-->
+                        <div class="card">
+							<div class="card-header" id="infraten">
+								<a href="#collapseten" data-toggle="collapse" data-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
+									<p class="mb-0">
+								  2. IPL Auction
+									</p>
+								</a>
+							</div>
+							<div id="collapseten" class="collapse" aria-labelledby="infraten" data-parent="#accordion">
+								<div class="card-body">
+								Using Amazon AWS technology which is an industry leader for reliability you will be able to experience an uptime in the vicinity of 99.95%.
+								</div>
+							</div>
+						</div><!-- close card-->
+                        <div class="card">
+							<div class="card-header" id="infraeleven">
+								<a href="#collapseeleven" data-toggle="collapse" data-target="#collapseeleven" aria-expanded="false" aria-controls="collapseeleven">
+									<p class="mb-0">
+								  3. Valorant 
+									</p>
+								</a>
+							</div>
+							<div id="collapseeleven" class="collapse" aria-labelledby="infraeleven" data-parent="#accordion">
+								<div class="card-body">
+								Using Amazon AWS technology which is an industry leader for reliability you will be able to experience an uptime in the vicinity of 99.95%.
+								</div>
+							</div>
+						</div><!-- close card-->
+                        <div class="card">
+							<div class="card-header" id="infratwelve">
+								<a href="#collapsetwelve" data-toggle="collapse" data-target="#collapsetwelve" aria-expanded="false" aria-controls="collapsetwelve">
+									<p class="mb-0">
+								  4.    Chess
+									</p>
+								</a>
+							</div>
+							<div id="collapsetwelve" class="collapse" aria-labelledby="infratwelve" data-parent="#accordion">
+								<div class="card-body">
+								Using Amazon AWS technology which is an industry leader for reliability you will be able to experience an uptime in the vicinity of 99.95%.
+								</div>
+							</div>
+						</div><!-- close card-->
+						
+				</div>
+                
+		  </div><!-- tab content-->
+		</div>
+	</div>
+</div>	
+    
+    
+    
 	<div id="blog" class="section lb">
 		<div class="container">
 			<div class="section-title text-center">
-                <h3>Topic</h3>
-                <p>content</p>
+                <h3>Blog</h3>
+                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
             </div><!-- end title -->
 			
 			<div class="row">
@@ -442,11 +764,11 @@
 					<figure class="snip1401">
 						<img src="uploads/blog-01.jpg" alt="" />
 						<figcaption>
-							<h3>name</h3>
-							<p>content</p>
+							<h3>Quisque auctor lectus interdum</h3>
+							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa.</p>
 							<ul>
                                 <li>by admin</li>
-                                <li>date</li>
+                                <li>Apr 21, 2018</li>
                                 <li>Comments</li>
                             </ul>
 						</figcaption>
@@ -458,11 +780,11 @@
 					<figure class="snip1401 hover">
 						<img src="uploads/blog-02.jpg" alt="" />
 						<figcaption>
-							<h3>name</h3>
-							<p>content</p>
+							<h3>Quisque auctor lectus interdum</h3>
+							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa.</p>
 							<ul>
                                 <li>by admin</li>
-                                <li>date</li>
+                                <li>Apr 21, 2018</li>
                                 <li>Comments</li>
                             </ul>
 						</figcaption>
@@ -474,11 +796,11 @@
 					<figure class="snip1401">
 						<img src="uploads/blog-03.jpg" alt="" />
 						<figcaption>
-							<h3>name</h3>
-							<p>content</p>
+							<h3>Quisque auctor lectus interdum</h3>
+							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa.</p>
 							<ul>
                                 <li>by admin</li>
-                                <li>date</li>
+                                <li>Apr 21, 2018</li>
                                 <li>Comments</li>
                             </ul>
 						</figcaption>
@@ -494,8 +816,8 @@
     <div id="contact" class="section db">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Contact </h3>
-                <p>content</p>
+                <h3>Contact Me</h3>
+                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
             </div><!-- end title -->
 
             <div class="row">
@@ -541,11 +863,8 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">
-                  <center><p class="footer-company-name">Copyright &copy;  <a href="https://jecrcuniversity.edu.in/">JECRC UNIVERSITY</a> </p>
-                    <p>
-   Made with &nbsp; &hearts; &nbsp; by <a href="https://vaish27072001.github.io/Vaishnavi-Vaishnav/"><font color="white" >Vaishnavi Vaishnav</font></a> & <font color="white">Jheel Soni</font>
- </p>
-                    </center>  
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Nickie</a> Design By : 
+					<a href="https://html.design/">html design</a></p>
                 </div>
             </div>
         </div><!-- end container -->
