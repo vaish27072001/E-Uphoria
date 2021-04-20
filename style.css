@@ -2024,7 +2024,7 @@ hr.invis1 {
 }
 
 .bootstrap-select.btn-group .dropdown-menu.inner {
-    position: static;
+    position;
     float: none;
     border: 0;
     padding: 0;
@@ -2782,7 +2782,75 @@ select.mobile-device {
     BUTTONS
 -------------------------------------------------------------------*/
 
-.navbar-default .btn-light {
+a{
+color: #282425!important;	
+}
+ul.nav.nav-tabs > li{
+	display: inline-block;
+	line-height: 30px;
+	height: 100%;
+	text-transform:uppercase;
+    margin: auto;
+    margin-bottom: 10px;
+}
+ul.nav.nav-tabs > li a{
+	display:block;
+	padding:25px;
+	color: #282425!important;
+	
+}
+ul.nav.nav-tabs > li a:hover, ul.nav.nav-tabs > li:hover{
+	background:	#FB282F;
+	color:#fff!important;
+	text-decoration: none!important;
+}
+ul.nav.nav-tabs > li a.active{
+	background:	#282425;
+	color:#fff!important;
+	text-decoration: none!important;
+}
+.card-header {
+    background-color: rgb(245,245,245,0.3)!important;
+	border-radius:0!important;
+    
+}
+.card{
+border-radius:0!important;
+    
+}
+
+.card > .card-header a::before {
+    font-family: fontawesome;
+    content: "\f067 ";
+    color: #282425;
+    float: right;
+    margin-right: 15px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+}
+
+
+.background {
+  padding: 300px;
+  text-align: center;
+   background: url("banner-01.jpg"); 
+    background-size: cover;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+   background-position:bottom;
+
+  
+
+}
+
+/* Page Content */
+.content {
+    padding:20px;
+    }
+        
+        .navbar-default .btn-light {
     padding: 0 20px;
     margin-left: 15px;
 }
@@ -2812,3 +2880,4 @@ select.mobile-device {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
 }
+     

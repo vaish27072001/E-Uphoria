@@ -93,8 +93,8 @@
 }
 
 .owl-carousel.owl-grab {
-    cursor: move;
-    cursor: grab;
+    cursor:move;
+    cursor:grab;
 }
 
 .owl-carousel.owl-rtl {
