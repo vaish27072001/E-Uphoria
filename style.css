@@ -2909,3 +2909,12 @@ border-radius:0!important;
 
 
   
+
+
+
+.cname {
+    margin: auto 0;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
